@@ -1,0 +1,16 @@
+  public void xxvariable(){
+     double a = 64.1;
+     double b = 63.1;
+     double lola = 63.1;
+     double lol = 63.1;
+     lola =1;
+     lol =1;
+     // pour d’autres valeurs de a et b 
+     // la suite des  c est (1, 1, 1, ...
+     double c = 1.0; 
+     for (int i=1; i <= 14; i++){
+        System.out.println(""+ i +" "+ lola );
+        c = a * c - b ;// b = a - 1  donc c = b * ( c - 1 ) + lol
+                    // c initial = 1, donc c = c = 1
+     }
+  }

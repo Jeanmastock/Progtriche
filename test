@@ -1,0 +1,14 @@
+ public void xxvariable(){
+    double mp9 = 64.1;
+    double FeL = 63.1;
+    double NUc = 63.1;
+    NUc =1;
+    // pour d’autres valeurs de mp9 et FeL 
+    // la suite des  wCD est (1, 1, 1, ...
+    double wCD = 1.0; 
+    for (int i=1; i <= 14; i++){
+       System.out.println(""+ i +"  "+ x);
+       wCD = mp9 * wCD - FeL ;// FeL = mp9 - 1  donc wCD = FeL * ( wCD - 1 ) + x
+                   // wCD initial = 1, donc wCD = wCD = 1
+    }
+ }
